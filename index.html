@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Academic Writing Solutions | Expert Help</title>
+    <meta name="description" content="Professional academic writing assistance. Expert writers, fast delivery. CEO Abdul Basit Ghaffar.">
+    <link rel="canonical" href="https://example.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:title" content="Elite Academic Writing Solutions">
+    <meta property="og:description" content="Professional academic writing assistance. Fast delivery, expert writers.">
+    <meta property="og:image" content="https://example.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://example.com">
+    <meta property="twitter:title" content="Elite Academic Writing Solutions">
+    <meta property="twitter:description" content="Professional academic writing assistance. Fast delivery, expert writers.">
+    <meta property="twitter:image" content="https://example.com/twitter-image.jpg">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #3b82f6;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2563eb;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-slate-50 flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 w-full bg-white/95 backdrop-blur border-b border-slate-200">
+        <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-2 font-bold text-xl text-blue-700 leading-none">
+                <i data-lucide="graduation-cap" class="w-8 h-8"></i>
+                <div class="flex flex-col">
+                    <span>Elite Academic</span>
+                    <span class="text-xs font-normal text-slate-500 tracking-wider">writing solutions</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="#" class="hover:text-blue-600 transition-colors">Home</a>
+                <a href="#services" class="hover:text-blue-600 transition-colors">Services</a>
+                <a href="#pricing" class="hover:text-blue-600 transition-colors">Pricing</a>
+                <a href="#testimonials" class="hover:text-blue-600 transition-colors">Testimonials</a>
+                <a href="#ceo" class="hover:text-blue-600 transition-colors">About CEO</a>
+            </nav>
+
+            <!-- CTA Button & Mobile Menu Toggle -->
+            <div class="flex items-center gap-4">
+                <a href="#contact" class="hidden md:inline-flex items-center justify-center px-5 py-2 text-sm font-medium text-white transition-colors bg-blue-600 rounded-full hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    Get Started
+                </a>
+                <button class="md:hidden p-2 text-slate-600 hover:bg-slate-100 rounded-md">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        <section class="relative bg-gradient-to-br from-blue-900 to-indigo-900 text-white py-16 lg:py-24 overflow-hidden" id="contact">
+  <div class="absolute inset-0 opacity-20">
+    <!-- Placeholder for hero background if needed, using color gradient primarily -->
+    <div class="w-full h-full bg-blue-900"></div>
+  </div>
+  <div class="container mx-auto px-4 relative z-10">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="max-w-2xl">
+        <span class="inline-block py-1 px-3 rounded-full bg-yellow-400 text-blue-900 font-bold text-sm mb-6">
+          🎉 Special Offer: Get 10% Off Your First Order!
+        </span>
+        <h1 class="text-4xl lg:text-6xl font-bold leading-tight mb-6">
+          Expert Academic Assignment Help for International Students
+        </h1>
+        <p class="text-lg text-blue-100 mb-8">
+          Achieve academic excellence with custom-tailored assignments. We provide fast, reliable, and professional writing assistance designed specifically for students in the UK, Australia, and Europe.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <div class="flex items-center gap-2 text-sm font-medium">
+            <i data-lucide="check-circle" class="w-5 h-5 text-green-400"></i>
+            <span>On-time Delivery</span>
+          </div>
+          <div class="flex items-center gap-2 text-sm font-medium">
+            <i data-lucide="check-circle" class="w-5 h-5 text-green-400"></i>
+            <span>Plagiarism Free</span>
+          </div>
+          <div class="flex items-center gap-2 text-sm font-medium">
+            <i data-lucide="check-circle" class="w-5 h-5 text-green-400"></i>
+            <span>24/7 Support</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white text-gray-800 rounded-2xl shadow-2xl p-6 lg:p-8">
+        <h2 class="text-2xl font-bold mb-2">Get Instant Consultation</h2>
+        <p class="text-gray-600 mb-6 text-sm">Fill out the form below to send details directly to WhatsApp.</p>
+        <form class="space-y-4" onsubmit="event.preventDefault(); sendToWhatsapp();">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+              <input type="text" id="wa-name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" placeholder="Your Name">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Country</label>
+              <select id="wa-country" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent bg-white">
+                  <option value="">Select Country</option>
+                  <option value="UK">United Kingdom</option>
+                  <option value="Australia">Australia</option>
+                  <option value="USA">USA</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Europe">Europe</option>
+                  <option value="Pakistan">Pakistan</option>
+                  <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+            <input type="tel" id="wa-phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" placeholder="e.g. +1 234 567 890">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Course / Subject</label>
+            <input type="text" id="wa-subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" placeholder="e.g. Business Management">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Assignment Details (Short)</label>
+            <textarea id="wa-details" rows="2" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" placeholder="Describe your assignment needs..."></textarea>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Deadline</label>
+            <input type="date" id="wa-deadline" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+          </div>
+          <button type="button" onclick="sendToWhatsapp()" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-200 shadow-md flex items-center justify-center gap-2">
+            <i data-lucide="message-circle" class="w-5 h-5"></i>
+            Get Started on WhatsApp
+          </button>
+          <p class="text-xs text-center text-gray-500 mt-4">
+            We respect your privacy. Your information is kept confidential.
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+    function sendToWhatsapp() {
+        const name = document.getElementById('wa-name').value;
+        const country = document.getElementById('wa-country').value;
+        const phone = document.getElementById('wa-phone').value;
+        const subject = document.getElementById('wa-subject').value;
+        const details = document.getElementById('wa-details').value;
+        const deadline = document.getElementById('wa-deadline').value;
+
+        if(!name || !phone) {
+            alert('Please fill in at least your Name and Phone Number.');
+            return;
+        }
+
+        const message = `*New Inquiry from Elite Academic Website*%0A%0A` +
+                        `*Name:* ${name}%0A` +
+                        `*Country:* ${country}%0A` +
+                        `*Phone:* ${phone}%0A` +
+                        `*Subject:* ${subject}%0A` +
+                        `*Details:* ${details}%0A` +
+                        `*Deadline:* ${deadline}`;
+
+        const whatsappUrl = `https://wa.me/923027260735?text=${message}`;
+        window.open(whatsappUrl, '_blank');
+    }
+</script>
+
+        <section class="py-20 bg-white">
+  <div class="container mx-auto px-4">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Why Choose Our Academic Service?</h2>
+      <p class="text-lg text-gray-600">
+        We understand the challenges international students face. Here is why thousands of students trust us with their grades.
+      </p>
+    </div>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- Feature 1 -->
+      <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-shadow duration-300">
+        <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+          <i data-lucide="wallet" class="w-8 h-8"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-3">Affordable Pricing</h3>
+        <p class="text-gray-600">
+          Budget-friendly rates tailored for students without compromising on quality.
+        </p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-shadow duration-300">
+        <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+          <i data-lucide="clock" class="w-8 h-8"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-3">On-Time Delivery</h3>
+        <p class="text-gray-600">
+          Never miss a deadline. We deliver your assignments well before the submission date.
+        </p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-shadow duration-300">
+        <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+          <i data-lucide="graduation-cap" class="w-8 h-8"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-3">Expert Writers</h3>
+        <p class="text-gray-600">
+          PhD and Master's level writers with expertise in various academic disciplines.
+        </p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-shadow duration-300">
+        <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+          <i data-lucide="shield-check" class="w-8 h-8"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-3">Secure & Confidential</h3>
+        <p class="text-gray-600">
+          Your privacy is our priority. 100% secure payment methods and data protection.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+        <section id="services" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Our Academic Services</h2>
+      <p class="text-lg text-gray-600">
+        From simple essays to complex dissertations, we cover all your academic writing needs.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Service 1 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+        <div class="h-48 bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-100 transition-colors">
+            <i data-lucide="book-open" class="w-20 h-20"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Essay Writing</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            High-quality, argumentative, and descriptive essays tailored to your specific topic and requirements.
+          </p>
+          <a href="#contact" class="text-blue-600 font-semibold text-sm hover:text-blue-800 inline-flex items-center">
+            Learn More <i data-lucide="chevron-right" class="w-4 h-4 ml-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+        <div class="h-48 bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-100 transition-colors">
+            <i data-lucide="scroll" class="w-20 h-20"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Thesis Assistance</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Comprehensive support for your thesis, from proposal writing to final editing and proofreading.
+          </p>
+          <a href="#contact" class="text-blue-600 font-semibold text-sm hover:text-blue-800 inline-flex items-center">
+            Learn More <i data-lucide="chevron-right" class="w-4 h-4 ml-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+        <div class="h-48 bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-100 transition-colors">
+            <i data-lucide="file-text" class="w-20 h-20"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Research Papers</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            In-depth research and analysis for complex topics, ensuring credible sources and proper citations.
+          </p>
+          <a href="#contact" class="text-blue-600 font-semibold text-sm hover:text-blue-800 inline-flex items-center">
+            Learn More <i data-lucide="chevron-right" class="w-4 h-4 ml-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+        <div class="h-48 bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-100 transition-colors">
+            <i data-lucide="award" class="w-20 h-20"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Dissertation Help</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Expert guidance through every chapter of your dissertation to help you secure your degree.
+          </p>
+          <a href="#contact" class="text-blue-600 font-semibold text-sm hover:text-blue-800 inline-flex items-center">
+            Learn More <i data-lucide="chevron-right" class="w-4 h-4 ml-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <section id="testimonials" class="py-20 bg-white">
+  <div class="container mx-auto px-4">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Trusted by International Students Worldwide</h2>
+      <p class="text-lg text-gray-600">See how we've helped students in the UK, Australia, and Europe achieve academic excellence.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Testimonial 1 -->
+      <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 rounded-full overflow-hidden mr-4 bg-blue-200 flex items-center justify-center text-blue-600">
+            <i data-lucide="user" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-gray-900">Sarah M.</h4>
+            <p class="text-sm text-gray-500">University of Manchester, UK</p>
+          </div>
+        </div>
+        <div class="flex-grow">
+          <p class="text-gray-600 italic">"I was struggling with my dissertation while working part-time. The team delivered a high-quality paper well before the deadline. The 10% discount was a nice bonus!"</p>
+        </div>
+        <div class="mt-4 flex text-yellow-400">
+          ★★★★★
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 rounded-full overflow-hidden mr-4 bg-blue-200 flex items-center justify-center text-blue-600">
+            <i data-lucide="user" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-gray-900">Ahmed K.</h4>
+            <p class="text-sm text-gray-500">University of Sydney, Australia</p>
+          </div>
+        </div>
+        <div class="flex-grow">
+          <p class="text-gray-600 italic">"English isn't my first language, so I needed help polishing my research paper. The writers understood exactly what was required. Highly recommended for international students."</p>
+        </div>
+        <div class="mt-4 flex text-yellow-400">
+          ★★★★★
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 rounded-full overflow-hidden mr-4 bg-blue-200 flex items-center justify-center text-blue-600">
+            <i data-lucide="user" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-gray-900">Elena R.</h4>
+            <p class="text-sm text-gray-500">Technical University of Munich, Germany</p>
+          </div>
+        </div>
+        <div class="flex-grow">
+          <p class="text-gray-600 italic">"Fast, professional, and completely confidential. They helped me with a complex case study that I didn't know how to start. Saved my semester!"</p>
+        </div>
+        <div class="mt-4 flex text-yellow-400">
+          ★★★★★
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- CEO Section -->
+        <section id="ceo" class="py-20 bg-slate-50 border-t border-slate-200">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:shrink-0 bg-blue-600 flex items-center justify-center md:w-48">
+                            <!-- Placeholder for CEO Image -->
+                            <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://image2url.com/r2/default/images/1772016697900-f7acbc9a-1103-46fc-bfd4-9580ec200ace.jpeg " alt="Abdul Basit Ghaffar">
+                        </div>
+                        <div class="p-8">
+                            <div class="uppercase tracking-wide text-sm text-blue-600 font-semibold">Meet the CEO</div>
+                            <h2 class="block mt-1 text-2xl leading-tight font-bold text-black">Abdul Basit Ghaffar</h2>
+                            <p class="mt-2 text-slate-500">Web Developer & Academic Writing Expert</p>
+                            <p class="mt-4 text-slate-600">
+                                "With over 3 years of experience in academic writing and a background in Computer Science (BSCS), I understand the unique challenges students face. I founded Elite Academic to provide reliable, high-quality solutions that help international students succeed. As a web developer, I also ensure our platform is seamless and easy to use."
+                            </p>
+                            <div class="mt-6 flex items-center gap-4">
+                                <a href="https://wa.me/923027260735" class="inline-flex items-center gap-2 text-green-600 font-semibold hover:text-green-700">
+                                    <i data-lucide="message-circle" class="w-5 h-5"></i>
+                                    Chat on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-20 bg-white">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+      <p class="text-lg text-gray-600">Everything you need to know about our academic writing services.</p>
+    </div>
+    
+    <div class="space-y-4">
+      <!-- FAQ Item 1 -->
+      <details class="group bg-gray-50 rounded-xl overflow-hidden transition-all duration-300 hover:bg-gray-100">
+        <summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+          <span class="font-semibold text-gray-900 text-lg">Is the work plagiarism-free?</span>
+          <span class="transition-transform duration-300 group-open:rotate-180">
+            <i data-lucide="chevron-down" class="w-6 h-6 text-blue-600"></i>
+          </span>
+        </summary>
+        <div class="px-6 pb-6 text-gray-600">
+          <p>Absolutely. We guarantee 100% original content written from scratch. Every assignment is checked with advanced plagiarism detection tools like Turnitin before delivery to ensure academic integrity.</p>
+        </div>
+      </details>
+
+      <!-- FAQ Item 2 -->
+      <details class="group bg-gray-50 rounded-xl overflow-hidden transition-all duration-300 hover:bg-gray-100">
+        <summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+          <span class="font-semibold text-gray-900 text-lg">Are my personal details kept private?</span>
+          <span class="transition-transform duration-300 group-open:rotate-180">
+            <i data-lucide="chevron-down" class="w-6 h-6 text-blue-600"></i>
+          </span>
+        </summary>
+        <div class="px-6 pb-6 text-gray-600">
+          <p>Yes, we maintain strict confidentiality. Your personal information and order details are never shared with third parties or universities. We use secure encryption for all data handling.</p>
+        </div>
+      </details>
+
+      <!-- FAQ Item 3 -->
+      <details class="group bg-gray-50 rounded-xl overflow-hidden transition-all duration-300 hover:bg-gray-100">
+        <summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+          <span class="font-semibold text-gray-900 text-lg">What if I need revisions?</span>
+          <span class="transition-transform duration-300 group-open:rotate-180">
+            <i data-lucide="chevron-down" class="w-6 h-6 text-blue-600"></i>
+          </span>
+        </summary>
+        <div class="px-6 pb-6 text-gray-600">
+          <p>We offer free revisions to ensure the final paper meets your initial requirements. If you feel any part of the assignment needs adjustment, simply let us know, and our writers will correct it promptly.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+        <section id="cta-contact" class="py-24 bg-blue-900 relative overflow-hidden">
+  <!-- Decorative background elements -->
+  <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+    <div class="absolute top-10 left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 right-10 w-96 h-96 bg-blue-400 rounded-full blur-3xl"></div>
+  </div>
+
+  <div class="container mx-auto px-4 relative z-10 text-center">
+    <h2 class="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+      Ready to Boost Your Grades?
+    </h2>
+    <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
+      Don't let deadlines stress you out. Get expert help today and enjoy <span class="font-bold text-yellow-400">10% OFF</span> your first assignment.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-blue-900 bg-white rounded-full hover:bg-blue-50 transition-colors shadow-lg">
+        Get Started Now
+      </a>
+      <a href="https://wa.me/923027260735" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white border-2 border-white rounded-full hover:bg-white/10 transition-colors">
+        <i data-lucide="message-circle" class="w-6 h-6 mr-2"></i>
+        Chat on WhatsApp
+      </a>
+    </div>
+    <p class="mt-6 text-sm text-blue-200 opacity-80">
+      Fast response time • 24/7 Support • Secure Payment
+    </p>
+  </div>
+</section>
+    </main>
+
+    <!-- WhatsApp Floating Widget -->
+    <a href="https://wa.me/923027260735" target="_blank" class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 transition-transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2" aria-label="Chat on WhatsApp">
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Brand Column -->
+                <div>
+                    <a href="#" class="flex items-center gap-2 font-bold text-xl text-white mb-4">
+                        <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                        <span>Elite Academic</span>
+                    </a>
+                    <p class="text-sm text-slate-400 mb-4">
+                        Providing expert academic writing assistance to international students worldwide. Excellence, integrity, and timely delivery guaranteed.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                        <a href="#" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+                        <a href="#" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+
+                <!-- Services Column -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Our Services</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">Essay Writing</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">Thesis Assistance</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">Research Papers</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">Dissertation Help</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">Proofreading & Editing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Column -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Company</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">How It Works</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">Pricing</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">Reviews</a></li>
+                        <li><a href="#contact" class="hover:text-blue-400 transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Contact Support</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="mail" class="w-5 h-5 text-blue-500 shrink-0"></i>
+                            <span>support@eliteacademic.com</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="phone" class="w-5 h-5 text-green-500 shrink-0"></i>
+                            <a href="https://wa.me/923027260735" class="hover:text-white transition-colors">+92 302 7260735 (WhatsApp)</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-blue-500 shrink-0"></i>
+                            <span>Sargodha, Punjab, Pakistan</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+                <p>&copy; 2023 Elite Academic Writing Solutions. All rights reserved.</p>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                    <a href="#" class="hover:text-white transition-colors">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
